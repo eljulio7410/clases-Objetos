@@ -6,11 +6,11 @@ public class Estudiante {
     String carrera;
 
     public void info(){
-        System.out.println("tipo = " + tipo);
-        System.out.println("nombre = " + nombre);
-        System.out.println("apellido = " + apellido);
-        System.out.println("edad = " + edad);
-        System.out.println("carrera = " + carrera);
+        System.out.println("tipo = " + this.tipo);
+        System.out.println("nombre = " + this.nombre);
+        System.out.println("apellido = " + this.apellido);
+        System.out.println("edad = " + this.edad);
+        System.out.println("carrera = " + this.carrera);
     }
 
 
